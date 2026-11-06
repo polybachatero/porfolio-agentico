@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "accent-sage": "#E1EAE5", "on-secondary-fixed": "#001e2e", "surface-glass": "rgba(255, 255, 255, 0.72)", "surface-container-lowest": "#ffffff", "surface": "#f7f9ff", "primary-container": "#3a6053", "on-secondary": "#ffffff", "on-surface-variant": "#414845", "on-primary-fixed-variant": "#284e41", "surface-bright": "#f7f9ff", "tertiary-fixed": "#f0dbff", "secondary-fixed": "#c8e6ff", "secondary": "#416279", "error-container": "#ffdad6", "accent-lilac": "#ECE7F2", "border-hairline": "rgba(24, 27, 30, 0.08)", "on-primary-fixed": "#002118", "on-primary-container": "#afd9c8", "background": "#f7f9ff", "outline": "#717975", "on-surface": "#161c23", "text-display": "#181B1E", "inverse-primary": "#a6cfbf", "tertiary": "#4b3a5b", "on-tertiary-container": "#ddc7ef", "on-secondary-fixed-variant": "#284a60", "primary": "#22483c", "on-tertiary": "#ffffff", "on-tertiary-fixed-variant": "#514061", "inverse-surface": "#2b3138", "surface-container": "#e9eef7", "on-primary": "#ffffff", "accent-slate": "#E3EBF1", "surface-variant": "#dde3ec", "error": "#ba1a1a", "primary-fixed": "#c2ecdb", "surface-container-high": "#e3e8f2", "outline-variant": "#c1c8c3", "on-tertiary-fixed": "#241433", "inverse-on-surface": "#ecf1fa", "on-error": "#ffffff", "on-error-container": "#93000a", "surface-card": "#FFFFFF", "accent-sand": "F5EFE6", "primary-fixed-dim": "#a6cfbf", "secondary-container": "#c2e4ff", "secondary-fixed-dim": "#a9cbe5", "bg-canvas": "#FBFBF9", "text-body": "#353A40", "tertiary-fixed-dim": "#d5bee6", "on-background": "#161c23", "tertiary-container": "#635174", "text-muted": "#6E757D", "surface-dim": "#d5dae3", "surface-container-highest": "#dde3ec", "surface-tint": "#406659", "on-secondary-container": "#45667d", "surface-container-low": "#eef4fd" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "gutter": "1.5rem", "margin": "1.5rem", "space-sm": "0.75rem", "space-xl": "3.5rem", "margin-desktop": "3rem", "space-md": "1.25rem", "space-xs": "0.375rem", "gutter-desktop": "2rem", "space-lg": "2rem" }, "fontFamily": { "headline-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Inter"], "display-hero": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "body-sm": ["Inter"], "eyebrow": ["Plus Jakarta Sans"] }, "fontSize": { "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg": ["38px", { "lineHeight": "46px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-sm": ["12px", { "lineHeight": "16px", "fontWeight": "600" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "display-hero-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "label-md": ["14px", { "lineHeight": "20px", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "display-hero": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "eyebrow": ["12px", { "lineHeight": "16px", "letterSpacing": "0.12em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-body antialiased selection:bg-accent-sage selection:text-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-glass backdrop-blur-xl shadow-[0_1px_8px_rgba(24,27,30,0.04)]"><div class="h-20 max-w-[1180px] mx-auto px-margin lg:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="group flex items-center gap-space-xs" data-path="inicio" href="#"><span class="font-headline-sm text-headline-sm text-text-display tracking-tight group-hover:text-primary transition-colors">/C.Y.\</span><span class="hidden sm:inline-block text-text-muted font-body-sm text-body-sm">| Carlos Yapura</span></a></div><nav class="hidden xl:flex items-center gap-space-xs p-1 bg-surface-container-low/70 rounded-full shadow-[inset_0_1px_2px_rgba(24,27,30,0.03)]" data-active-classes="bg-accent-sage text-primary font-semibold rounded-full"><a aria-current="page" class="px-space-md py-space-xs transition-all bg-accent-sage text-primary font-semibold rounded-full" data-path="inicio" href="#">Inicio</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-full" data-path="sobre-mi" href="#">Sobre Mí</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-full" data-path="habilidades" href="#">Habilidades</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-full" data-path="proyectos" href="#">Proyectos</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-full" data-path="filosofia-de-aprendizaje" href="#">Filosofía de Aprendizaje</a><a class="px-space-md py-space-xs font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all rounded-full" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-sm"><div class="flex items-center gap-1 sm:gap-space-xs"><a aria-label="WhatsApp" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-accent-sage hover:text-primary transition-all" href="https://wa.me/" rel="noopener noreferrer" target="_blank" title="WhatsApp"><span class="material-symbols-outlined text-[20px]">chat</span></a><a aria-label="Instagram" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-accent-lilac hover:text-tertiary transition-all" href="https://instagram.com/" rel="noopener noreferrer" target="_blank" title="Instagram"><span class="material-symbols-outlined text-[20px]">photo_camera</span></a><a aria-label="Email" class="w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:bg-accent-slate hover:text-secondary transition-all" href="mailto:carlos@example.com" title="Email"><span class="material-symbols-outlined text-[20px]">mail</span></a></div><div class="h-5 w-px bg-outline-variant/40 hidden sm:block mx-space-xs"></div><div class="flex items-center gap-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-accent-sage" src="https://lh3.googleusercontent.com/aida/AEtjO1UmVotO8WQg4ficrWPhWYfJHCC96pw9WSLLtg8wfQxv3x6DFzN35h_9W_pS5thpLV3NJT29OTotUQE_Awkg1JSvzjI4i02RzeAC_uyiD6OAFiqgJiKVXv5zNsWrVFKXJQCJR1wwcVn_eTgAn51QmUF-SBP6q97EbQzcghdsX80E7S47O8RvRAvYdJi00j4pUPt9m_B3EaZ4U93jPzMnu9XMhHQ0za_Gmvkq1CkY15hfMOqMN_b696JYXVg"/></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle ambient decorative glow elements (relative to content canvas) -->
+<div class="relative w-full max-w-[1180px] mx-auto px-margin lg:px-margin-desktop overflow-hidden">
+<div class="absolute -top-32 right-12 w-96 h-96 bg-accent-sage/40 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-1/3 -left-32 w-80 h-80 bg-accent-slate/50 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute bottom-1/4 right-0 w-80 h-80 bg-accent-lilac/30 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- 1. HERO SECTION -->
+<section class="w-full pt-8 pb-16 lg:py-20 flex flex-col justify-center" id="inicio">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Hero Text -->
+<div class="lg:col-span-7 flex flex-col items-start gap-space-md">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-sage/80 text-primary font-label-sm text-label-sm shadow-sm backdrop-blur-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span>🌱 En constante evolución y aprendizaje técnico</span>
+</div>
+<h1 class="font-display-hero text-display-hero lg:text-[54px] text-text-display leading-[1.1] tracking-tight">
+            Construyendo interfaces web limpias, funcionales y con propósito.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+            Soy <strong class="text-text-display font-semibold">Carlos Yapura</strong>, Desarrollador Web Junior especializado en HTML, CSS y JavaScript moderno. Apasionado por transformar ideas en código claro, semántico y resolver desafíos cotidianos.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm pt-2 w-full sm:w-auto">
+<a class="w-full sm:w-auto px-6 py-3 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:shadow-lg hover:bg-primary-container transition-all text-center flex items-center justify-center gap-2" href="#proyectos">
+<span>Explorar Proyectos</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="w-full sm:w-auto px-6 py-3 rounded-full bg-surface-card text-on-surface font-label-md text-label-md shadow-sm hover:bg-accent-sage/50 transition-all text-center flex items-center justify-center gap-2" href="#contacto">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+<span>Contactar / Descargar CV</span>
+</a>
+</div>
+<!-- Micro Metric Badges -->
+<div class="grid grid-cols-3 gap-3 pt-6 w-full max-w-lg">
+<div class="p-3.5 rounded-2xl bg-surface-card shadow-sm flex flex-col justify-center">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">3+</span>
+<span class="font-body-sm text-body-sm text-text-muted leading-tight mt-0.5">Proyectos completados</span>
+</div>
+<div class="p-3.5 rounded-2xl bg-surface-card shadow-sm flex flex-col justify-center">
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">100%</span>
+<span class="font-body-sm text-body-sm text-text-muted leading-tight mt-0.5">Código semántico &amp; responsive</span>
+</div>
+<div class="p-3.5 rounded-2xl bg-surface-card shadow-sm flex flex-col justify-center">
+<span class="font-headline-sm text-headline-sm text-primary-container font-bold">24/7</span>
+<span class="font-body-sm text-body-sm text-text-muted leading-tight mt-0.5">Aprendizaje proactivo</span>
+</div>
+</div>
+</div>
+<!-- Hero Card with Portrait -->
+<div class="lg:col-span-5 flex justify-center lg:justify-end">
+<div class="relative w-full max-w-sm sm:max-w-md">
+<div class="absolute -inset-2 bg-gradient-to-tr from-accent-sage via-accent-slate to-accent-lilac rounded-3xl blur-xl opacity-70"></div>
+<div class="relative bg-surface-card rounded-3xl p-6 shadow-xl flex flex-col items-center text-center">
+<div class="relative w-44 h-44 sm:w-52 sm:h-52 rounded-2xl overflow-hidden shadow-md mb-5 bg-surface-container">
+<img alt="Retrato de Carlos Yapura" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbtb2YAJKEwqCfxIeX-tdj0dCf4ufkVOwe_j6tye_2g6oWAVeWy8lNYbogDEDg75cWE4B_uQFgVAzLXkkKfimAhQfJVEhew7bk20jMr50MV7DW5pcAOojQN0K6OFbBV8EcZKuN7f811fKXIdaKVm4HvnhMc7L2mnsnjgGNN85xFelQLxYSZU6Bbgn1eByqaPy8of7CCtMmXEgfmWLjENeX6JsiddbqgIqUr1iSr_je1U7Eo_H5iDSn"/>
+<div class="absolute bottom-2 right-2 bg-surface-card/90 backdrop-blur-md px-2.5 py-1 rounded-full shadow-sm flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<span class="font-label-sm text-[11px] text-text-display font-medium">Disponible para trabajar</span>
+</div>
+</div>
+<div class="w-full text-left">
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-wider">Perfil Profesional</span>
+<h3 class="font-headline-sm text-headline-sm text-text-display mt-0.5">Carlos Yapura</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Desarrollador Web Junior enfocado en la experiencia de usuario y arquitectura front-end limpia.</p>
+<!-- Code philosophy chip snippet -->
+<div class="mt-4 p-3 rounded-xl bg-surface-container-low font-body-sm text-[12px] font-mono text-on-surface-variant flex items-center justify-between">
+<span class="text-primary font-semibold">&lt;coder /&gt;</span>
+<span class="text-text-muted">learn_daily: true;</span>
+<span class="text-secondary font-semibold">{ modern: 'js' }</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. SOBRE MÍ & ENFOQUE DE APRENDIZAJE -->
+<section class="w-full py-16 lg:py-24" id="sobre-mi">
+<div class="flex flex-col gap-2 mb-10 text-center max-w-2xl mx-auto">
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-widest">Conóceme Más</span>
+<h2 class="font-headline-lg text-headline-lg text-text-display">Mi camino y vocación técnica</h2>
+<p class="font-body-md text-body-md text-text-muted">Una transición impulsada por la curiosidad sistemática y el placer de convertir problemas abstractos en interfaces accesibles.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Story Card -->
+<div class="lg:col-span-7 bg-surface-card rounded-3xl p-8 sm:p-10 shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-4">
+<div class="w-12 h-12 rounded-2xl bg-accent-sage flex items-center justify-center text-primary mb-2 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">menu_book</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-display">Curiosidad convertida en código</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              Mi camino en el desarrollo web nace de una profunda curiosidad por comprender cómo se conectan el diseño visual y la arquitectura técnica. Cada línea de código es una oportunidad para investigar mejores prácticas, accesibilidad y eficiencia.
+            </p>
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+              No concibo la programación únicamente como sintaxis, sino como una herramienta de comunicación empática que facilita la vida de las personas. Me mantengo motivado explorando documentación oficial, resolviendo desafíos de maquetación y buscando activamente retroalimentación.
+            </p>
+</div>
+<!-- Highlight quote block -->
+<div class="mt-8 p-4 sm:p-5 rounded-2xl bg-accent-sand/60 flex items-start gap-3.5">
+<span class="material-symbols-outlined text-primary text-[26px] mt-0.5">format_quote</span>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "El aprendizaje continuo no es una etapa temporal de inicio, sino un hábito cotidiano que sostiene toda carrera sólida."
+            </p>
+</div>
+</div>
+<!-- 3 Pillars Column -->
+<div class="lg:col-span-5 flex flex-col gap-4 justify-between">
+<!-- Pillar 1 -->
+<div class="p-6 rounded-3xl bg-surface-card shadow-sm hover:shadow-md transition-all flex items-start gap-4">
+<div class="w-11 h-11 rounded-2xl bg-accent-sage/80 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[22px]">psychology</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-text-display text-[18px]">Curiosidad técnica</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Exploro el 'por qué' detrás de cada tecnología, profundizando en estándares y patrones limpios.</p>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-6 rounded-3xl bg-surface-card shadow-sm hover:shadow-md transition-all flex items-start gap-4">
+<div class="w-11 h-11 rounded-2xl bg-accent-slate/80 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[22px]">code</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-text-display text-[18px]">Atención al detalle semántico</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Estructuración limpia con HTML5 semántico, diseño adaptable y accesibilidad visual prioritaria.</p>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-6 rounded-3xl bg-surface-card shadow-sm hover:shadow-md transition-all flex items-start gap-4">
+<div class="w-11 h-11 rounded-2xl bg-accent-lilac/80 flex items-center justify-center text-tertiary shrink-0">
+<span class="material-symbols-outlined text-[22px]">diversity_3</span>
+</div>
+<div class="flex flex-col gap-1">
+<h4 class="font-headline-sm text-headline-sm text-text-display text-[18px]">Adaptabilidad y trabajo en equipo</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Receptivo a críticas constructivas y ágil al asimilar nuevas herramientas y dinámicas grupales.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. HABILIDADES & TECNOLOGÍAS EN EXPANSIÓN -->
+<section class="w-full py-16 lg:py-24" id="habilidades">
+<div class="flex flex-col gap-2 mb-12 text-center max-w-2xl mx-auto">
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-widest">Stack &amp; Competencias</span>
+<h2 class="font-headline-lg text-headline-lg text-text-display">Habilidades en constante evolución</h2>
+<p class="font-body-md text-body-md text-text-muted">Fortalezas consolidadas y tecnologías que incorporo activamente en mi práctica diaria.</p>
+</div>
+<!-- Main Skills Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Skill 1 -->
+<div class="p-7 rounded-3xl bg-surface-card shadow-sm flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-sage flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">html</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-text-display text-[18px]">HTML5 &amp; Maquetación Semántica</h4>
+<span class="font-body-sm text-body-sm text-text-muted">Estructuración, SEO básico y accesibilidad</span>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">95%</span>
+</div>
+<!-- Progress bar -->
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full rounded-full bg-primary transition-all duration-1000 ease-out" style="width: 95%;"></div>
+</div>
+</div>
+<!-- Skill 2 -->
+<div class="p-7 rounded-3xl bg-surface-card shadow-sm flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-slate flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">css</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-text-display text-[18px]">CSS3 &amp; Responsive Design</h4>
+<span class="font-body-sm text-body-sm text-text-muted">Flexbox, CSS Grid, media queries y transiciones</span>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold">95%</span>
+</div>
+<!-- Progress bar -->
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full rounded-full bg-secondary transition-all duration-1000 ease-out" style="width: 95%;"></div>
+</div>
+</div>
+<!-- Skill 3 -->
+<div class="p-7 rounded-3xl bg-surface-card shadow-sm flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-sand flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[20px]">javascript</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-text-display text-[18px]">JavaScript Vanilla &amp; Interactividad</h4>
+<span class="font-body-sm text-body-sm text-text-muted">Manipulación del DOM, eventos y lógica modular</span>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary-container font-bold">90%</span>
+</div>
+<!-- Progress bar -->
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full rounded-full bg-primary-container transition-all duration-1000 ease-out" style="width: 90%;"></div>
+</div>
+</div>
+<!-- Skill 4 -->
+<div class="p-7 rounded-3xl bg-surface-card shadow-sm flex flex-col gap-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-lilac flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">palette</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-text-display text-[18px]">Diseño &amp; Edición con Photoshop</h4>
+<span class="font-body-sm text-body-sm text-text-muted">Retoque gráfico, assets web y optimización de imágenes</span>
+</div>
+</div>
+<span class="font-headline-sm text-headline-sm text-tertiary font-bold">85%</span>
+</div>
+<!-- Progress bar -->
+<div class="w-full h-3 rounded-full bg-surface-container-high overflow-hidden">
+<div class="h-full rounded-full bg-tertiary transition-all duration-1000 ease-out" style="width: 85%;"></div>
+</div>
+</div>
+</div>
+<!-- Technologies in Expansion Box -->
+<div class="mt-10 p-8 rounded-3xl bg-surface-container-low shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[24px]">rocket_launch</span>
+<h3 class="font-headline-sm text-headline-sm text-text-display">Tecnologías en exploración activa</h3>
+</div>
+<span class="font-label-sm text-label-sm text-text-muted">Ruta de formación continua</span>
+</div>
+<div class="flex flex-wrap gap-2.5">
+<span class="px-4 py-2 rounded-full bg-surface-card text-on-surface font-label-md text-label-md shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span> Git &amp; GitHub
+          </span>
+<span class="px-4 py-2 rounded-full bg-surface-card text-on-surface font-label-md text-label-md shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-sky-500"></span> Consumo de API REST &amp; Fetch
+          </span>
+<span class="px-4 py-2 rounded-full bg-surface-card text-on-surface font-label-md text-label-md shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-teal-500"></span> Tailwind CSS
+          </span>
+<span class="px-4 py-2 rounded-full bg-surface-card text-on-surface font-label-md text-label-md shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-amber-500"></span> TypeScript (en progreso)
+          </span>
+<span class="px-4 py-2 rounded-full bg-surface-card text-on-surface font-label-md text-label-md shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-purple-500"></span> Fundamentos UI / UX &amp; Figma
+          </span>
+</div>
+</div>
+</section>
+<!-- 4. PROYECTOS DESTACADOS (PORTFOLIO INTERACTIVO) -->
+<section class="w-full py-16 lg:py-24" id="proyectos">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+<div class="flex flex-col gap-2 max-w-xl">
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-widest">Trabajos Recientes</span>
+<h2 class="font-headline-lg text-headline-lg text-text-display">Proyectos con valor real</h2>
+<p class="font-body-md text-body-md text-text-muted">Soluciones funcionales maquetadas con dedicación a la limpieza visual y el rendimiento.</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-body-sm text-body-sm text-text-muted">Mostrando 3 proyectos</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- PROYECTO 1: Ed Tech -->
+<div class="group bg-surface-card rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all flex flex-col">
+<div class="relative w-full h-56 bg-surface-container overflow-hidden">
+<img alt="Captura del proyecto Ed Tech" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfI1shh6846-QGeZeZW1AJIOOS58RGTv8abU_8UUtuouCKsvXB4NC4fUB9_ocHIUtwzuOMUyjuTUf2-2RgNStFuLBeAwIopiVFS2kvwKcB9-4_pdrFCd5f-BxtwvPaY-XDT_a_phnR2UyHodLFiTfvsrdtt44zfPGdOjIN07Y10oIJJsTifCdyfgJFCIPWp3OyvgdB5cAqu2Rkq85zJGhYPsO7ve7hcYUi2YQmV6RTIDA6tRYv6Cw-"/>
+<div class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full bg-surface-card/90 backdrop-blur-md font-label-sm text-label-sm text-primary shadow-sm font-semibold">
+              Ed Tech
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2.5">
+<h3 class="font-headline-sm text-headline-sm text-text-display group-hover:text-primary transition-colors">Plataforma Ed Tech</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Plataforma orientada a educación secundaria y orientación vocacional. Interfaz serena pensada para facilitar la consulta de programas académicos y módulos formativos.
+              </p>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="px-2.5 py-1 rounded-md bg-accent-sage text-primary font-label-sm text-[12px]">HTML5</span>
+<span class="px-2.5 py-1 rounded-md bg-accent-slate text-secondary font-label-sm text-[12px]">CSS3</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface font-label-sm text-[12px]">Flexbox</span>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-2 pt-3">
+<button class="flex-1 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md text-center hover:bg-primary-container transition-colors shadow-sm" onclick="alert('Proyecto Ed Tech: Maquetado pedagógico con foco en orientación vocacional.')">
+                Ver Demo
+              </button>
+<button class="px-4 py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors" onclick="alert('Detalle: Desarrollado con semántica accesible, paleta visual sin distracciones y maquetación fluida para tablets y escritorio.')" title="Detalle">
+<span class="material-symbols-outlined text-[18px]">info</span>
+</button>
+</div>
+</div>
+</div>
+<!-- PROYECTO 2: Proyecto Edu.Car -->
+<div class="group bg-surface-card rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all flex flex-col">
+<div class="relative w-full h-56 bg-surface-container overflow-hidden">
+<img alt="Captura del proyecto Edu.Car" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcAZ69sZdUmC0_7IuFApQqUomo88Axl1PP_9JCe27I4vN-rBYhR9WzLJT9k-kLVv8dg5UeqG_oTr0S-9KnJUNeK7BbISzSiXPir0NZWJnACTFIc8FBBWzugyC4VRyS1HGnkU03NDOwn3zmw-vfAJdW3MHCT_QztycD9lv5lOadA4hB8ea3EBl121AC3xnDwwye22YnEg6VPeZG1Od4FLk6M_3Pj5bmygAMB5oWqJRC_N6-Yqk4Nx0m"/>
+<div class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full bg-surface-card/90 backdrop-blur-md font-label-sm text-label-sm text-secondary shadow-sm font-semibold">
+              Edu.Car
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2.5">
+<h3 class="font-headline-sm text-headline-sm text-text-display group-hover:text-primary transition-colors">Proyecto Edu.Car</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Entorno educativo para nivel primario con navegación pedagógica supervisada, iconografía clara y controles de interacción pensados para niñas y niños.
+              </p>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="px-2.5 py-1 rounded-md bg-accent-sage text-primary font-label-sm text-[12px]">Accesibilidad</span>
+<span class="px-2.5 py-1 rounded-md bg-accent-slate text-secondary font-label-sm text-[12px]">UI Intuitiva</span>
+<span class="px-2.5 py-1 rounded-md bg-surface-container text-on-surface font-label-sm text-[12px]">Responsive</span>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-2 pt-3">
+<button class="flex-1 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md text-center hover:bg-primary-container transition-colors shadow-sm" onclick="alert('Edu.Car: Prototipo navegable con énfasis en claridad visual para estudiantes de nivel primario.')">
+                Ver Demo
+              </button>
+<button class="px-4 py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors" onclick="alert('Detalle: Enfoque integral de diseño centrado en el usuario infantil, contraste auditado y tipografías amigables.')" title="Detalle">
+<span class="material-symbols-outlined text-[18px]">info</span>
+</button>
+</div>
+</div>
+</div>
+<!-- PROYECTO 3: Resto-Boris -->
+<div class="group bg-surface-card rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all flex flex-col md:col-span-2 lg:col-span-1">
+<div class="relative w-full h-56 bg-surface-container overflow-hidden">
+<img alt="Captura del sitio web Resto-Boris" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyOOZkWkUOuJMWWbN48qHcU6oVikoVgDMB1GmGDg4JkDQ7fYz6nuRGl3qw-ZD8L7Y5hrcoTzwY9cxqjCKieJBmiEJchn_n0aQZTFyR2WEnm9zvzl5Rhswl6R3yZN0h0gC6RA1hl65qmo5xMPT5oaASpoqTHtpKeNqDxDFkYr5lCaAdc7rdLyfyCQ3xIE2iwTvkxpyqQrdGsQ9rL8S8DhxpKCrceWy9Rpdy7cro5va8616jXPUcTvo5"/>
+<div class="absolute top-3.5 left-3.5 px-3 py-1 rounded-full bg-surface-card/90 backdrop-blur-md font-label-sm text-label-sm text-tertiary shadow-sm font-semibold">
+              Resto-Boris
+            </div>
+<div class="absolute top-3.5 right-3.5 px-2.5 py-1 rounded-full bg-emerald-600/90 text-white font-label-sm text-[11px] font-semibold backdrop-blur-md shadow-sm">
+              En Vivo
+            </div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div class="flex flex-col gap-2.5">
+<h3 class="font-headline-sm text-headline-sm text-text-display group-hover:text-primary transition-colors">Resto-Boris Gastronomía</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Sitio comercial gastronómico con presentación de menú interactivo, estética cuidada y sistema de reservas. Desplegado y operativo en Netlify.
+              </p>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 pt-2">
+<span class="px-2.5 py-1 rounded-md bg-accent-sage text-primary font-label-sm text-[12px]">JavaScript</span>
+<span class="px-2.5 py-1 rounded-md bg-accent-lilac text-tertiary font-label-sm text-[12px]">Netlify</span>
+<span class="px-2.5 py-1 rounded-md bg-accent-sand text-on-surface font-label-sm text-[12px]">Gastronomía</span>
+</div>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-2 pt-3">
+<a class="flex-1 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md text-center hover:bg-primary-container transition-colors shadow-sm flex items-center justify-center gap-1.5" href="https://resto-bar-boris-1.netlify.app" rel="noopener noreferrer" target="_blank">
+<span>Visitar Sitio Real</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+<a class="px-4 py-2.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors" href="https://resto-bar-boris-1.netlify.app" rel="noopener noreferrer" target="_blank" title="Abrir en pestaña nueva">
+<span class="material-symbols-outlined text-[18px]">launch</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. DESEO DE APRENDER & PROYECCIÓN -->
+<section class="w-full py-16 lg:py-24" id="filosofia-de-aprendizaje">
+<div class="rounded-3xl bg-gradient-to-br from-surface-card via-surface-container-lowest to-surface-container-low p-8 sm:p-12 lg:p-16 shadow-md relative overflow-hidden">
+<div class="max-w-2xl flex flex-col gap-4 relative z-10">
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-widest">Valor para tu Equipo</span>
+<h2 class="font-headline-lg text-headline-lg text-text-display">¿Por qué sumar a Carlos a tu organización?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            Contratar a un desarrollador junior entusiasta es apostar por dinamismo, humildad intelectual y una capacidad inmediata de adopción de buenas prácticas de equipo.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12 relative z-10">
+<!-- Card 1 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-sm flex flex-col gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-sage flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">trending_up</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-[18px] text-text-display">Growth Mindset</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Acepto los errores como material de estudio. Busco comprender a fondo las soluciones, no solo copiar código.</p>
+</div>
+<!-- Card 2 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-sm flex flex-col gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-slate flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[20px]">forum</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-[18px] text-text-display">Feedback Receptivo</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Disfruto las revisiones de código (Code Reviews). Cada sugerencia de un compañero senior la convierto en aprendizaje.</p>
+</div>
+<!-- Card 3 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-sm flex flex-col gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-sand flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[20px]">build_circle</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-[18px] text-text-display">Resolución Metódica</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Descompongo problemas complejos en pasos pequeños, documentando cada proceso para garantizar mantenibilidad.</p>
+</div>
+<!-- Card 4 -->
+<div class="p-6 rounded-2xl bg-surface-card shadow-sm flex flex-col gap-3">
+<div class="w-10 h-10 rounded-xl bg-accent-lilac flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-[18px] text-text-display">Compromiso Real</h4>
+<p class="font-body-sm text-body-sm text-text-muted">Entrega puntual, constancia y vocación por construir productos digitales que sumen valor palpable a los usuarios.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. FORMULARIO DE CONTACTO & DISPONIBILIDAD -->
+<section class="w-full py-16 lg:py-24" id="contacto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Contact Info Side -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<div class="flex flex-col gap-2">
+<span class="font-eyebrow text-eyebrow uppercase text-primary tracking-widest">Hablemos</span>
+<h2 class="font-headline-lg text-headline-lg text-text-display">Iniciemos una conversación</h2>
+<p class="font-body-md text-body-md text-text-muted leading-relaxed">
+              ¿Tenés una oportunidad laboral para un desarrollador junior con empuje, o una propuesta de colaboración técnica? Escribime con total confianza.
+            </p>
+</div>
+<!-- Direct Channels -->
+<div class="flex flex-col gap-4 mt-2">
+<!-- Email Item -->
+<a class="p-4 rounded-2xl bg-surface-card shadow-sm hover:shadow-md transition-all flex items-center gap-4 group" href="mailto:cyapura433@gmail.com">
+<div class="w-12 h-12 rounded-xl bg-accent-slate flex items-center justify-center text-secondary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[22px]">mail</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-text-muted">Correo Electrónico</span>
+<span class="font-headline-sm text-headline-sm text-[16px] text-text-display font-medium">cyapura433@gmail.com</span>
+</div>
+</a>
+<!-- WhatsApp Item -->
+<a class="p-4 rounded-2xl bg-surface-card shadow-sm hover:shadow-md transition-all flex items-center gap-4 group" href="https://wa.me/" rel="noopener noreferrer" target="_blank">
+<div class="w-12 h-12 rounded-xl bg-accent-sage flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[22px]">chat</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-text-muted">WhatsApp Directo</span>
+<span class="font-headline-sm text-headline-sm text-[16px] text-text-display font-medium">Mensaje instantáneo</span>
+</div>
+</a>
+<!-- Location / Availability badge -->
+<div class="p-4 rounded-2xl bg-surface-container-low flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">schedule</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Respuesta habitual en menos de 24 horas.</span>
+</div>
+</div>
+</div>
+<!-- Contact Form Card -->
+<div class="lg:col-span-7 bg-surface-card rounded-3xl p-8 sm:p-10 shadow-lg">
+<form class="flex flex-col gap-5" id="portfolioContactForm" onsubmit="event.preventDefault(); handleFormSubmit();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+<!-- Name Input -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="name">Tu Nombre</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-text-display placeholder-text-muted/60 text-body-md font-body-md focus:bg-surface-card focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="name" placeholder="Ej. Camila Morales" required="" type="text"/>
+</div>
+<!-- Email Input -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="email">Tu Correo</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-text-display placeholder-text-muted/60 text-body-md font-body-md focus:bg-surface-card focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="email" placeholder="camila@empresa.com" required="" type="email"/>
+</div>
+</div>
+<!-- Subject Input -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="subject">Tema o Motivo</label>
+<input class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-text-display placeholder-text-muted/60 text-body-md font-body-md focus:bg-surface-card focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all" id="subject" placeholder="Oportunidad Junior Front-End / Proyecto web" required="" type="text"/>
+</div>
+<!-- Message Area -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider" for="message">Mensaje</label>
+<textarea class="w-full px-4 py-3 rounded-xl bg-surface-container-low text-text-display placeholder-text-muted/60 text-body-md font-body-md focus:bg-surface-card focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all resize-none" id="message" placeholder="Hola Carlos, nos gustaría invitarte a conversar sobre..." required="" rows="4"></textarea>
+</div>
+<!-- Submit Button & Feedback -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+<button class="w-full sm:w-auto px-8 py-3.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-primary-container hover:shadow-lg transition-all flex items-center justify-center gap-2" id="submitBtn" type="submit">
+<span>Enviar Mensaje</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+<span class="hidden font-body-sm text-body-sm text-primary font-medium flex items-center gap-1.5" id="formFeedback">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+                ¡Mensaje recibido! Te responderé muy pronto.
+              </span>
+</div>
+</form>
+</div>
+</div>
+</section>
+</div>
+<!-- Interactive script for client-side functionality -->
+<script>
+    function handleFormSubmit() {
+      const btn = document.getElementById('submitBtn');
+      const feedback = document.getElementById('formFeedback');
+      const form = document.getElementById('portfolioContactForm');
+
+      if (btn && feedback) {
+        btn.disabled = true;
+        btn.classList.add('opacity-75');
+        btn.innerText = 'Enviando...';
+
+        setTimeout(() => {
+          btn.classList.add('hidden');
+          feedback.classList.remove('hidden');
+          form.reset();
+        }, 800);
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-text-body mt-space-xl shadow-[0_-1px_12px_rgba(24,27,30,0.03)]"><div class="max-w-[1180px] mx-auto px-margin lg:px-margin-desktop py-space-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-space-lg"><div class="flex flex-col gap-space-xs max-w-md"><div class="flex items-center gap-space-xs"><span class="font-headline-sm text-headline-sm text-text-display">/C.Y.\</span><span class="font-label-md text-label-md text-primary font-semibold">Carlos Yapura</span></div><p class="font-body-sm text-body-sm text-text-muted leading-relaxed">Desarrollador Web Junior comprometido con el código legible, el diseño empático y la disciplina de aprender algo nuevo cada día.</p><p class="font-eyebrow text-eyebrow uppercase tracking-widest text-primary pt-space-xs">"El aprendizaje continuo no es una etapa, es una práctica diaria."</p></div><div class="flex flex-col sm:flex-row items-start sm:items-center gap-space-lg w-full md:w-auto justify-between md:justify-end"><div class="flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm uppercase tracking-wider text-text-muted">Contacto &amp; Redes</span><div class="flex items-center gap-space-sm"><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1 font-body-sm text-body-sm" href="https://wa.me/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span>WhatsApp</a><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1 font-body-sm text-body-sm" href="https://instagram.com/" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">photo_camera</span>Instagram</a><a class="text-on-surface-variant hover:text-primary transition-colors flex items-center gap-1 font-body-sm text-body-sm" href="mailto:carlos@example.com"><span class="material-symbols-outlined text-[18px]">mail</span>Email</a></div></div></div></div><div class="bg-surface-container-high/40"><div class="max-w-[1180px] mx-auto px-margin lg:px-margin-desktop py-space-md flex flex-col sm:flex-row items-center justify-between gap-space-sm text-text-muted font-body-sm text-body-sm"><span>© 2026 Carlos Yapura. Todos los derechos reservados.</span><span class="font-label-sm text-label-sm text-text-muted">Construido con dedicación, calma y pasión por la web.</span></div></div></footer></body></html>
